@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomasz Gajda - Portfolio</title>
+    <!-- Font Awesome للأيقونات الاجتماعية -->
+    <link rel="stylesheet" href="c.css" class="">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <!-- شعار مبسط يشبه الموجود بالصورة -->
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://w3.org">
+                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 17L12 22L22 17" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 12L12 17L22 12" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <nav>
+                <a href="#">About me</a>
+                <a href="#">Skills</a>
+                <a href="#">Portfolio</a>
+                <a href="#" class="btn-contact">CONTACT ME</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <!-- الجزء الأيسر: النصوص -->
+            <div class="hero-text">
+                <p class="greeting">Hi, I am</p>
+                <h1 class="name">Tomasz Gajda</h1>
+                <p class="title">Front-end Developer / UI Designer</p>
+                
+                <!-- أيقونات التواصل الاجتماعي -->
+                <div class="social-icons">
+                    <a href="#"><i class="fa-ext fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-ext fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-ext fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <!-- الجزء الأيمن: الصورة والخلفية المائلة -->
+            <div class="hero-image-box">
+                <!-- يمكنك استبدال الرابط برابط صورتك الشخصية -->
+                <img src="https://placeholder.com" alt="Tomasz Gajda" class="profile-img">
+                <div class="image-note">
+                    This is not my photo,<br>but I deeply hope to<br>get one just like this
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom Dark Section (IT BERRIES) -->
+    <section class="it-berries">
+        <div class="container berries-container">
+            <div class="berries-content">
+                <h2>IT BERRIES</h2>
+
+                
